@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 
 // Ruta API simple
 app.get("/api", (req, res) => {
-  res.json({ message: "Hola desde la API en Azure 🚀" });
+  res.json({ message: "Hola desde la API en Azure primer intento 🚀" });
 });
 
 // Iniciar el servidor
